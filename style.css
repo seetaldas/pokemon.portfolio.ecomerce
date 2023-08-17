@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: black;
+    color: aqua;
+}
+
+.logo {
+    display: flex;
+    list-style: none;
+}
+
+.logo li {
+    position: relative;
+    margin-left: 140px;
+    text-align: center;
+}
+
+.logo {
+    background-color: aquamarine;
+
+}
+
+.back {
+    background-image: url(./backgroung-section.jpg);
+    height: 650px;
+    opacity: 0.8;
+}
+
+.para {
+    color: white;
+    opacity: 1;
+}
+
+.para a {
+    text-decoration: none;
+    border: black solid 1px;
+    color: white;
+    box-shadow: black 2px;
+}
+
+.para {
+    justify-content: center;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.para,
+p,
+h2,
+a {
+    position: relative;
+    top: 100px;
+}
+
+.para a {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.cardone{
+    border: black solid 2px;
+    width: 120px;
+    padding: 10px;
+}
+.cards{
+    position: relative;
+    top: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards .cardone button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+.landpage{
+    background-color: #3d3d33;
+    margin-top: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
